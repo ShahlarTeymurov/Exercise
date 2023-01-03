@@ -1,13 +1,111 @@
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
 
-a {
-  color: orange;
+section {
+  padding: 40px 0;
 }
 
-a:hover {
-  color: black;
+#first .textbox, #first .minibox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-/*# sourceMappingURL=style.css.map */
+#first .textbox {
+  background-color: #5e94ce;
+  border: 1px solid #106fa5;
+  width: 140px;
+  height: 140px;
+}
+#first .textbox .minibox {
+  background-color: #447ce4;
+  border: 1px solid #0a6bc5;
+  width: 70px;
+  height: 70px;
+  transition: 2s;
+}
+#first .textbox .minibox:hover {
+  width: 100px;
+  height: 100px;
+}
+#first .textbox .minibox h2 {
+  color: white;
+  font-weight: 700;
+}
+
+#second .btn {
+  border: 2px solid #855a7e;
+  padding: 25px 60px;
+  background-color: rgba(111, 74, 124, 0.9921568627);
+  transition: 2s;
+}
+#second .btn:hover {
+  background-color: #473f52;
+}
+#second .btn h2 {
+  position: relative;
+  bottom: 16px;
+  color: white;
+}
+@media screen and (max-width: 800px) {
+  #second .btn {
+    border: 2px solid rgba(81, 122, 235, 0.9921568627);
+    padding: 7px 23px;
+    background-color: rgba(81, 122, 235, 0.9921568627);
+    transition: 2s;
+  }
+  #second .btn h2 {
+    position: static;
+  }
+}
+@media screen and (max-width: 500px) {
+  #second .btn {
+    border: 2px solid rgba(31, 25, 9, 0.9921568627);
+    padding: 10px 7px;
+    background-color: rgba(31, 25, 9, 0.9921568627);
+    transition: 2s;
+  }
+  #second .btn h2 {
+    position: relative;
+    bottom: 6px;
+    font-size: 10px;
+  }
+}
+
+#three .textbox {
+  border: 1px solid #382605;
+  border-radius: 50%;
+  padding: 25%;
+  width: 63%;
+  background-color: #725039;
+  transition: 2s;
+}
+#three .textbox:hover {
+  border-radius: 20px;
+}
+#three .textbox h2 {
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+}
+@media screen and (max-width: 800px) {
+  #three .textbox {
+    border: 1px solid #c0aea3;
+    border-radius: 50%;
+    padding: 5%;
+    width: 25%;
+    background-color: #c0aea3;
+  }
+  #three .textbox h2 {
+    position: relative;
+    right: 4px;
+  }
+}
+@media screen and (max-width: 800px) and (max-width: 767px) {
+  #three .textbox {
+    border-radius: 50%;
+    padding: 1%;
+    width: 7%;
+  }
+}/*# sourceMappingURL=style.css.map */

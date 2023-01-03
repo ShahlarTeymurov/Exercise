@@ -1,0 +1,29 @@
+#three
+    .textbox
+        border: 1px solid #382605
+        border-radius: 50%
+        padding: 25%
+        width: 63%
+        background-color: #725039
+        transition: 2s
+        &:hover
+            border-radius: 20px
+        h2
+            color: #ffff
+            font-weight: 700
+            font-size: 18px
+    @media screen and ( max-width: 800px )
+        .textbox
+            border: 1px solid #c0aea3
+            border-radius: 50%
+            padding: 5%
+            width: 25%
+            background-color: #c0aea3
+            h2
+                position: relative
+                right: 4px
+        @media screen and ( max-width: 767px )
+            .textbox
+                border-radius: 50%
+                padding: 1%
+                width: 7%
