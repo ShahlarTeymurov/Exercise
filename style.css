@@ -13,14 +13,14 @@ section {
   align-items: center;
 }
 #first .textbox {
-  background-color: #5e94ce;
+  background-color: #5a80a8;
   border: 1px solid #106fa5;
   width: 140px;
   height: 140px;
 }
 #first .textbox .minibox {
-  background-color: #447ce4;
-  border: 1px solid #0a6bc5;
+  background-color: #466091;
+  border: 1px solid #466091;
   width: 70px;
   height: 70px;
   transition: 2s;
@@ -77,8 +77,8 @@ section {
   border: 1px solid #382605;
   border-radius: 50%;
   padding: 25%;
-  width: 63%;
-  background-color: #725039;
+  width: 61%;
+  background-color: #91664a;
   transition: 2s;
 }
 #three .textbox:hover {
@@ -87,7 +87,7 @@ section {
 #three .textbox h2 {
   color: white;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 20px;
 }
 @media screen and (max-width: 800px) {
   #three .textbox {
@@ -108,4 +108,40 @@ section {
     padding: 1%;
     width: 7%;
   }
+}
+
+#four .textbox {
+  width: 232px;
+  height: 155px;
+  background-color: #425e92;
+  margin-bottom: 10px;
+}
+#four .textbox h2 {
+  color: white;
+  font-size: 20px;
+  position: relative;
+  left: 90px;
+  top: 45px;
+}
+#four .rel {
+  position: absolute;
+  left: 317px;
+}
+
+#five .textbox {
+  width: 232px;
+  height: 155px;
+  background-color: #648370;
+  margin-bottom: 10px;
+}
+#five .textbox h2 {
+  color: white;
+  font-size: 20px;
+  position: relative;
+  left: 90px;
+  top: 45px;
+}
+#five .abs {
+  position: absolute;
+  left: 317px;
 }/*# sourceMappingURL=style.css.map */
